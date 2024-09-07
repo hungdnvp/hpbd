@@ -209,6 +209,10 @@ const animationTimeline = () => {
       },
       0.2
     )
+    .from(".six", 0.7, {
+      scale: 0.2,
+      opacity: 0,
+    })
     .from(
       ".profile-picture",
       0.5,
@@ -282,6 +286,10 @@ const animationTimeline = () => {
       opacity: 0,
       y: 30,
       zIndex: "-1",
+    })
+    .from(".nine", 0.5, {
+      scale: 0.2,
+      opacity: 0,
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(

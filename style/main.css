@@ -48,6 +48,7 @@ body {
   display: flex;
   margin-left: 1rem;
   margin-right: 1rem;
+  /* background-image: url("../img/poster4.jpg"); */
 }
 .four .sweet1 {
   border-radius: 8px;
@@ -406,14 +407,23 @@ body {
 }
 .six {
   height: 100vh;
-}
-.six .wish {
-  /* visibility: hidden; */
-  /* background-image: url("../img/poster4.jpg"); */
+  background-image: url("../img/poster4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100vw; /* Chiều rộng bằng toàn bộ viewport */
+}
+.container > .nine {
+  top: 0;
+}
+.nine {
   height: 100vh;
+  top: 0;
+  width: 100vw; /* Chiều rộng bằng toàn bộ viewport */
+  background-image: url("../img/poster5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
