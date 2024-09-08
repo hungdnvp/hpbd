@@ -310,19 +310,36 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .container {
-    width: 90%;
+  .container > .four {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
   }
-
-  .four .text-box {
-    width: 90%;
+  .sweet1 {
+    min-width: 500px;
+    min-height: 400px;
+    flex: none;
+    margin-left: 50px;
   }
-
   .text-box .fake-btn {
     bottom: -38px;
     right: 5px;
   }
-
+  .four .text-box {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: auto;
+  }
+  .br {
+    display: none;
+  }
+  .text-box p {
+    margin: 0;
+    padding: 8px;
+    font-size: 12px;
+  }
   .idea-5 span {
     display: block;
   }
@@ -348,8 +365,23 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
-}
 
+  .box-wishText {
+    width: 100%;
+  }
+  .six #wishText {
+    font-size: 16px;
+  }
+  .nine {
+    visibility: visible;
+    background-size: contain !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .nine > p {
+    padding: 12px;
+  }
+}
 /* CUSTOM BY QH */
 .romantic-title {
   font-family: "Dancing Script", cursive;
