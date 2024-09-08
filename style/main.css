@@ -373,7 +373,6 @@ body {
     font-size: 16px;
   }
   .nine {
-    visibility: visible;
     background-size: contain !important;
     display: flex;
     flex-direction: column;
